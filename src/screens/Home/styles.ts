@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#252525',
+        backgroundColor: '#000',
         padding: 24
     },
     form: {
@@ -15,9 +15,9 @@ export const styles = StyleSheet.create({
 
     eventName: {
         color: '#FFFFFF',
-        fontSize: 24,
+        fontSize: 28,
         fontWeight: 'bold',
-        marginTop: 48
+        marginTop: 60
     },
 
     input: {
@@ -41,5 +41,11 @@ export const styles = StyleSheet.create({
     buttonText: {
         color: '#FFFFFF',
         fontSize: 24
+    },
+    listEmpty: {
+        color: '#FFF',
+        fontSize: 14,
+        fontWeight: 'bold',
+        textAlign: 'center'
     }
 })
